@@ -118,3 +118,43 @@
     color: var(--Dark-gray);
     font-weight: 400;
 }
+
+@media (min-width:800px){
+.img-card-header{
+    width: 100%;
+}
+.card{
+    width: 25%;
+}
+/* .object-top{
+    position: fixed;
+    object-fit: cover;
+    box-sizing: border-box;
+    left: -10rem;
+    top: -10rem;
+    width: 20rem;
+}
+.object-bottom{
+   position:fixed ;
+    object-fit: cover;
+    box-sizing: border-box;
+    right: -10rem;
+    bottom: -10rem;
+    width: 20rem;
+    z-index: 0;
+} */
+.object-top{
+    position: fixed;
+    object-fit: cover;
+    box-sizing: border-box;
+    left: -10rem;
+    top: -25rem;
+    width: 50rem;
+}
+.object-bottom{  
+    right: -0rem;
+    bottom: -20rem;
+    width: 40rem;
+}
+    
+}
